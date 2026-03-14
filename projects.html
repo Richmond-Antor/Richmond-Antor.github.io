@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Richmond Antor Biswas - Machine Learning & Data Science Projects">
+    <title>Projects | Richmond Antor Biswas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">Richmond Antor Biswas</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1 class="page-title">My Projects</h1>
+            <p class="page-subtitle">Showcasing machine learning, deep learning, and data visualization work</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+                
+                <!-- Project 1: Customer Churn Prediction -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Customer Churn Prediction</h3>
+                        <span class="project-category">Machine Learning</span>
+                    </div>
+                    <p class="project-description">
+                        Built a predictive model to identify customers likely to churn using supervised learning techniques. Implemented feature engineering and handled class imbalance to achieve high prediction accuracy.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Random Forest</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Accuracy</span>
+                            <span class="metric-value">85%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">F1-Score</span>
+                            <span class="metric-value">0.82</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <span>View Code</span>
+                            <span class="link-icon">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 2: Plant Disease Detection -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Plant Disease Detection</h3>
+                        <span class="project-category">Computer Vision</span>
+                    </div>
+                    <p class="project-description">
+                        Developed a CNN-based image classification system to detect plant diseases from leaf images. Implemented data augmentation and transfer learning to improve model performance on limited dataset.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Keras</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">CNN</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Accuracy</span>
+                            <span class="metric-value">88%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Dataset</span>
+                            <span class="metric-value">2000+ images</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <span>View Code</span>
+                            <span class="link-icon">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 3: Fake News Detection -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Fake News Detection</h3>
+                        <span class="project-category">NLP</span>
+                    </div>
+                    <p class="project-description">
+                        Created an NLP-based classifier to detect fake news articles using natural language processing techniques. Implemented TF-IDF vectorization and multiple classification algorithms for comparison.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLTK</span>
+                        <span class="tech-tag">TF-IDF</span>
+                        <span class="tech-tag">Logistic Regression</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">F1-Score</span>
+                            <span class="metric-value">0.83</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Precision</span>
+                            <span class="metric-value">85%</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <span>View Code</span>
+                            <span class="link-icon">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 4: Mental Health Sentiment Analysis -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Mental Health Sentiment Analysis</h3>
+                        <span class="project-category">NLP</span>
+                    </div>
+                    <p class="project-description">
+                        Performed sentiment analysis on mental health-related text data to classify emotional states. Applied advanced text preprocessing and feature extraction techniques for improved classification.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLTK</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Word2Vec</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Accuracy</span>
+                            <span class="metric-value">82%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">F1-Score</span>
+                            <span class="metric-value">0.80</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <span>View Code</span>
+                            <span class="link-icon">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 5: Car Price Prediction -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Car Price Prediction</h3>
+                        <span class="project-category">Regression</span>
+                    </div>
+                    <p class="project-description">
+                        Built a regression model to predict car prices based on features like make, model, year, mileage, and condition. Performed extensive feature engineering and hyperparameter tuning for optimal results.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">XGBoost</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">R² Score</span>
+                            <span class="metric-value">0.87</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">MAE</span>
+                            <span class="metric-value">$1,250</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <span>View Code</span>
+                            <span class="link-icon">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 6: AI Adoption Analytics Dashboard -->
+                <article class="project-card project-featured">
+                    <div class="project-header">
+                        <h3 class="project-title">Global AI Adoption Analytics Dashboard</h3>
+                        <span class="project-category">Data Visualization</span>
+                    </div>
+                    <p class="project-description">
+                        Curated and published a comprehensive research dataset on global AI adoption trends (2017-2025) from verified sources including McKinsey, Stanford AI Index, OpenAI, and World Bank. Built interactive Power BI dashboards visualizing organizational adoption, investment trends, sector analysis, and public sentiment across 7 thematic tables.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">Data Curation</span>
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">Statistical Analysis</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Dataset Size</span>
+                            <span class="metric-value">7 Tables</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">KPIs</span>
+                            <span class="metric-value">25+</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Time Range</span>
+                            <span class="metric-value">2017-2025</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://data.mendeley.com/datasets/dnm5jxgn2m/3" class="project-link" target="_blank">
+                            <span>View Dataset</span>
+                            <span class="link-icon">→</span>
+                        </a>
+                    </div>
+                    <div class="project-badge">Featured Project</div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Interested in collaborating?</h2>
+                <p class="cta-text">I'm always open to discussing new projects, opportunities, or partnerships.</p>
+                <a href="index.html#contact" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 Richmond Antor Biswas. Built with passion for AI and Data Science.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
